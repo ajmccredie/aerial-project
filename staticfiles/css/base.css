@@ -1,29 +1,45 @@
-/* static/css/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand&display=swap');
 
-@font-face {
-    font-family: 'Terrapin';
-    src: url('../fonts/Terrapin[1].ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+/* general text and background rules for site */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-
-/* Example of using the font in your CSS */
-html {
-    height: 100%;
-}
-
-
-h1, h2, h5 {
-    font-family: 'Terrapin', serif;
-}
-
 
 body {
-    background-color: #FFF8DC;
-    color: #2C2C2C;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: Quicksand, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    background: #424242;
+    color: #fafafa;
+}
+
+h1, h2, h3 {
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    color: #9500ff;
+    text-decoration: none;
+}
+
+/* logo and home page navigation top left */
+#logo {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#logo h1 {
+    font-size: 2.5rem;
+}
+
+#logo a:link {
+    text-decoration: none;
+}
+
+#logo h1:hover {
+    filter: drop-shadow(0 1px 1px #d6adf7)
 }
 
 .centre-flex {
