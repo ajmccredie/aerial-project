@@ -60,6 +60,8 @@ INSTALLED_APPS = [
     # other
     'crispy_forms',
     'storages',
+    'dashboard',
+    'workouts',
 ]
 
 MIDDLEWARE = [
